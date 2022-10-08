@@ -265,6 +265,12 @@ main {
     font-weight: 800;
 }
 
+@media (max-width: 450px) {
+    .info h1 {
+        font-size: 3rem;
+    }
+}
+
 .info span {
     color: #3AA648;
 }
@@ -583,6 +589,12 @@ main {
     font-size: 6.2rem;
 }
 
+@media (max-width: 450px) {
+    .help h1 {
+        font-size: 3rem;
+    }
+}
+
 .help span {
     display: block;
     font-size: 1.8rem;
@@ -625,6 +637,10 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+footer .logo {
+    margin-bottom: 40px;
 }
 
 .footer-contact {
@@ -670,6 +686,7 @@ footer {
     width: 100%;
     margin-top: 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: end;
 }
@@ -680,6 +697,7 @@ footer {
 
 .footer-terms ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     font-size: 0.875rem;
     color: #9c9c9c;
